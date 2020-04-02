@@ -11,16 +11,10 @@ Old documents
 =============
 Will release soon
 
-Old project member (via svn)
-============================
-Keith Thompson
+Old project member
+==================
+.._RedDwarf: https://sourceforge.net/p/reddwarf/wiki/Home/
 
-Owen Kellett
-
-Ann Wollrath
-
-Tim B
-
-Tim Blackman
-
-FVANtom
+Other community fork
+====================
+.._RedDwarf: https://github.com/dworkin/reddwarf
