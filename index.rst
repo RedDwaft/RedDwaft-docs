@@ -13,8 +13,8 @@ Will release soon
 
 Old project member
 ==================
-.. _RedDwarf: https://sourceforge.net/p/reddwarf/wiki/Home/
+`RedDwarf<https://sourceforge.net/p/reddwarf/wiki/Home/>`_
 
 Other community fork
 ====================
-.. _RedDwarf: https://github.com/dworkin/reddwarf
+`RedDwarf<https://github.com/dworkin/reddwarf>`_
