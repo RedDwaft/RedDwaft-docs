@@ -6,8 +6,15 @@ How to install
 --------------
 Will release soon
 
-Old documents
+Old developers's documents
 -------------
+.. toctree::
+   :maxdepth: 1
+   :caption: RedDwarf general information
+   :name: sec-oldgi
+   
+   oldgi/interview
+
 .. toctree::
    :maxdepth: 1
    :caption: RedDwarf Server 0.10.2 API
