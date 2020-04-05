@@ -31,8 +31,8 @@ The client side is different since the client API is a set of libraries that you
 
 
 
-+-----------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|                       |  Game developers have their own special language to describe their technology.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Game developers have their own special language to describe their technology.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 +-----------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 |dupe (duplication) bug | When an object in a game is in two places at once, in effect duplicating itself. A ball may simultaneously be on the floor and on the table. Dupe bugs reflect breakdowns in referential integrity and occur when back-end systems are not transactional. Project Darkstar is built on a transactional event-processing system that helps prevent dupe bugs.                                                                                                                                                                                                                                |
 +-----------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -68,7 +68,7 @@ Project Darkstar also provides a unified platform that games can be run on so th
 +----------------------------------------------------------------------------------------------------------------------------------------------------+
 | "Darkstar solves the problem of building your own game infrastructure and handles the scaling, load balancing, persistence, and other challenges." |
 |                                                                                                                                                    |
-| -- Jeff Kesselman - Chief Instigator, Project Darkstar, Sun Microsystems                                                                           |
+| -- *Jeff Kesselman - Chief Instigator, Project Darkstar, Sun Microsystems*                                                                         |
 +----------------------------------------------------------------------------------------------------------------------------------------------------+ 
 
 
@@ -107,7 +107,7 @@ What happens if the machine does step one and then it crashes? It never finished
 
 You might think you could reverse the order, but that doesn't help. If we do it this way:
 
-    1.Remove $1 from my wallet. 
+    1. Remove $1 from my wallet. 
 
     2. Add $1 to your wallet 
 
@@ -201,7 +201,7 @@ The data store is a transactional database, but it's not a relational database. 
 +----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | "The cloud is probably the most whiz-bang 'researchy' thing in the Project Darkstar system and the focus of much of our ongoing R&D.; Essentially, what we're building is a transactional database tuned for massive scalability at a 50% read-50% write data load." |
 |                                                                                                                                                                                                                                                                      |
-| -- Jeff Kesselman - Chief Instigator, Project Darkstar, Sun Microsystems                                                                                                                                                                                             |
+| -- *Jeff Kesselman - Chief Instigator, Project Darkstar, Sun Microsystems*                                                                                                                                                                                           |
 +----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
@@ -221,7 +221,7 @@ A: Game developers, by and large, are not server developers, so they focus on th
 +----------------------------------------------------------------------------------------------------------------------------------+
 | "We're bringing Sun's considerable knowledge and expertise in scalable network systems to the online multiplayer game industry." |
 |                                                                                                                                  |
-| -- Jeff Kesselman - Chief Instigator, Project Darkstar, Sun Microsystems                                                         |
+| -- *Jeff Kesselman - Chief Instigator, Project Darkstar, Sun Microsystems*                                                       |
 +----------------------------------------------------------------------------------------------------------------------------------+
 
 
@@ -282,7 +282,7 @@ The Playground offers a taste of what we envision for the industry, which is hos
 +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | "The Playground offers a taste of what we envision for the industry, which is hosting providers that take the load in building and running the game room off of the shoulders of the developer." |
 |                                                                                                                                                                                                  |
-| -- Jeff Kesselman - Chief Instigator, Project Darkstar, Sun Microsystems                                                                                                                         |
+| -- *Jeff Kesselman - Chief Instigator, Project Darkstar, Sun Microsystems*                                                                                                                       |
 +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
