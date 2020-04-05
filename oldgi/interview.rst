@@ -45,7 +45,7 @@ The client side is different since the client API is a set of libraries that you
 |zone                   | A given area of a virtual world, such as the town of Bar or the forest of Foo. A zone is a play space. All players in a zone can potentially interact with everyone in that zone. Those outside of the zone cannot. Often, different zones are placed on different physical computers in the machine room, called zone servers.                                                                                                                                                                                                                                                             |
 +-----------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 |shard                  | One cluster of zone servers that together describe a complete game world. In order to support large numbers of users, game developers today will replicate the entire world in many different shards. When a player starts a new character, they need to select what is called a server, which is really a cluster of servers, on which they will play with that character. Each of these so-called servers is really a shard, and characters on different shards can't play together. Project Darkstar makes possible shardless worlds, in which all players can interact with each other. |
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++-----------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
 
@@ -67,6 +67,7 @@ Project Darkstar also provides a unified platform that games can be run on so th
 
 +----------------------------------------------------------------------------------------------------------------------------------------------------+
 | "Darkstar solves the problem of building your own game infrastructure and handles the scaling, load balancing, persistence, and other challenges." |
+|                                                                                                                                                    |
 | -- Jeff Kesselman - Chief Instigator, Project Darkstar, Sun Microsystems                                                                           |
 +----------------------------------------------------------------------------------------------------------------------------------------------------+ 
 
@@ -199,6 +200,7 @@ The data store is a transactional database, but it's not a relational database. 
 
 +----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | "The cloud is probably the most whiz-bang 'researchy' thing in the Project Darkstar system and the focus of much of our ongoing R&D.; Essentially, what we're building is a transactional database tuned for massive scalability at a 50% read-50% write data load." |
+|                                                                                                                                                                                                                                                                      |
 | -- Jeff Kesselman - Chief Instigator, Project Darkstar, Sun Microsystems                                                                                                                                                                                             |
 +----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
@@ -218,6 +220,7 @@ A: Game developers, by and large, are not server developers, so they focus on th
 
 +----------------------------------------------------------------------------------------------------------------------------------+
 | "We're bringing Sun's considerable knowledge and expertise in scalable network systems to the online multiplayer game industry." |
+|                                                                                                                                  |
 | -- Jeff Kesselman - Chief Instigator, Project Darkstar, Sun Microsystems                                                         |
 +----------------------------------------------------------------------------------------------------------------------------------+
 
@@ -278,6 +281,7 @@ The Playground offers a taste of what we envision for the industry, which is hos
 
 +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | "The Playground offers a taste of what we envision for the industry, which is hosting providers that take the load in building and running the game room off of the shoulders of the developer." |
+|                                                                                                                                                                                                  |
 | -- Jeff Kesselman - Chief Instigator, Project Darkstar, Sun Microsystems                                                                                                                         |
 +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
